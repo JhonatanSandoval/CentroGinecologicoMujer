@@ -5,28 +5,34 @@
     android:id="@+id/activity_menu_principal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@drawable/imagen_splash"
     android:gravity="center"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/imagen_splash"
     tools:context="com.centroginecologicomujer.app.MenuPrincipalActivity">
 
 
     <Button
-        android:text="Reserve su cita"
+        android:id="@+id/btnReservar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnReservar"
-        android:background="#00F3FF"/>
+        android:background="#00F3FF"
+        android:text="Reserve su cita"/>
 
     <Button
-        android:text="Quiero información"
+        android:id="@+id/btnInformacion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnInformacion"
+        android:layout_marginTop="20dp"
         android:background="#00F3FF"
-        android:layout_marginTop="20dp"/>
+        android:text="Quiero información"/>
+
+
+
+
+
+
 </LinearLayout>
